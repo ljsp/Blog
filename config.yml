@@ -1,0 +1,26 @@
+baseURL: ""
+languageCode: fr-fr
+title: Blog - LUCAS PETIT
+theme: paper
+
+menu:
+  main:
+    - name: OpenGL
+      weight: 10
+      identifier: opengl
+      url: /opengl/
+    - name: Mathématiques
+      weight: 20
+      identifier: maths
+      url: /maths/
+    - name: Programmation
+      weight: 30
+      identifier: prog
+      url: /prog/
+    - name: À propos
+      weight: 40
+      identifier: about
+      url: https://www.ljsp.fr
+
+params:
+  description: "Blog de LUCAS PETIT"
