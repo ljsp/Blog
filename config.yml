@@ -1,7 +1,15 @@
 baseURL: ""
 languageCode: fr-fr
-title: Blog - LUCAS PETIT
+title: Accueil
 theme: paper
+author: Lucas Petit
+
+params:
+  description: "Blog de LUCAS PETIT"
+  avatar: surajpetit@gmail.com
+  name: Lucas Petit
+  bio: Passionné par l'informatique graphique, je partage ici mes connaissances
+  math: true
 
 menu:
   main:
@@ -21,6 +29,3 @@ menu:
       weight: 40
       identifier: about
       url: https://www.ljsp.fr
-
-params:
-  description: "Blog de LUCAS PETIT"
